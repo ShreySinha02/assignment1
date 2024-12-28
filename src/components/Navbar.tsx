@@ -59,7 +59,7 @@ function Navbar() {
             transition={{
               duration: 1,
             }}
-            className={`w-36 rounded-3xl flex justify-center items-center ${
+            className={`w-36 rounded-3xl flex justify-center items-center overflow-hidden ${
               index === 0 ? "bg-white bg-opacity-30 backdrop-blur-md shadow-lg text-white border border-white/20" : "bg-orange-400"
             }`}
           >
